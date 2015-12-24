@@ -46,7 +46,7 @@ public class ProtocolSupportVersionControl extends JavaPlugin {
 		FileConfiguration fc = getConfig();
 		try {
 			if (!new File(getDataFolder(), "config.yml").exists()) {
-				fc.options().header("ProtocolSupportVersionControl (PSVC) v" + getDescription().getVersion() + " Configuration" + "\nHave fun :3" + "\nby BeYkeRYkt" + "\nSupported protocol versions: " + "\n- 61 (1.5.2)" + "\n- 74 (1.6.2)" + "\n- 78 (1.6.4)" + "\n- 4 (1.7.5)" + "\n- 5 (1.7.10)" + "\n- 47 (1.8)" + "\nReplacers formula:" + "\n- ProtocolVersion : oldID : newID");
+				fc.options().header("ProtocolSupportVersionControl (PSVC) v" + getDescription().getVersion() + " Configuration" + "\nHave fun :3" + "\nby BeYkeRYkt" + "\nSupported protocol versions: " + "\n- 51 (1.4.7)" + "\n- 60 (1.5.1)" + "\n- 61 (1.5.2)" + "\n- 74 (1.6.2)" + "\n- 78 (1.6.4)" + "\n- 4 (1.7.5)" + "\n- 5 (1.7.10)" + "\n- 47 (1.8)" + "\nReplacers formula:" + "\n- ProtocolVersion : oldID : newID");
 				// protocol versions
 				List<Integer> versions = new ArrayList<Integer>();
 				// versions.add(-2); // PE
